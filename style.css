@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.description {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui-level {
+  font-size: 60px;
+  padding-top: 16px;
+}
+.ui-message {
+  font-size: 32px;
+}
+.level-two {
+  display: none;
+}
+.next-button {
+  padding: 16px 48px;
+  background-color: aqua;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+.scary-picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
